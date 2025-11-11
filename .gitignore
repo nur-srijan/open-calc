@@ -1,0 +1,63 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+install_manifest.txt
+cmake_install.cmake
+*.cmake
+!CMakeLists.txt
+
+# Compiled Object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+calculator
+
+# IDE files
+.vscode/
+.idea/
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# metal-cpp
+metal-cpp/
+*.zip
+
+# Dependencies
+third_party/
+
+# Test results
+Testing/
+
+# Debug files
+*.dSYM/
+*.su
